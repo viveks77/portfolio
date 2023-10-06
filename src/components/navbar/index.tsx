@@ -3,7 +3,7 @@ import GithubIcon from "@assets/github-mark.svg";
 import LinkdnIcon from "@assets/linkdn.svg";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { aboutDetails, contactDetails } from "@helpers/data-dump";
+import { contactDetails } from "@helpers/data-dump";
 
 const Navbar = () => {
   return (
