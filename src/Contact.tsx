@@ -3,7 +3,7 @@ import WrapperMask from "@components/common/wrapper-mask";
 import Heading from "@components/headings";
 import Layout from "@components/layout";
 import { contactDetails } from "@helpers/data-dump";
-import { headerMotionVariants } from "@helpers/motion-variables";
+import { childMotionVariants, headerMotionVariants } from "@helpers/motion-variables";
 
 const Contact = () => {
   return (
@@ -21,7 +21,7 @@ const Contact = () => {
               Hello.
             </Heading.Wrapper>
           </WrapperMask>
-          <Layout.Content className="flex">
+          <Layout.Content variants={childMotionVariants} className="flex">
             <span>Email: </span>{" "}
             <a
               href={`mailto:${contactDetails.email}`}
@@ -31,7 +31,7 @@ const Contact = () => {
               <div className="h-[2px] w-0 bg-foreground transition-all group-hover:w-full"></div>
             </a>
           </Layout.Content>
-          <Layout.Content className="flex">
+          <Layout.Content variants={childMotionVariants} className="flex mt-0">
             <span>Socials: </span>
             <div className="flex items-center font-medium">
               <a href={contactDetails.linkdin} className="group w-fit px-3">

@@ -29,15 +29,12 @@ const childMotionVariants = {
 
 const headerMotionVariants = {
   initial: {
-    y: 100,
+    y: 50,
     opacity: 0,
   },
   animate: {
     y: 10,
     opacity: 1,
-    transition: {
-      duration: 0.6,
-    },
   },
 };
 
