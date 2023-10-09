@@ -24,7 +24,7 @@ const Navbar = () => {
           )}
           <Link
             className="group relative block rotate-180 py-1 tracking-wider lg:hidden"
-            href=""
+            href="/"
           >
             Home
             <div className="absolute left-1/2 top-0 h-0 w-[1px] origin-center bg-black transition-all group-hover:h-full"></div>

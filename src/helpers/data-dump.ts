@@ -6,22 +6,48 @@ export const aboutDetails = {
     "Throughout my career, I have consistently delivered solutions that not only meet but exceed project objectives through effective cross-functional collaboration, requirement gathering, and a relentless pursuit of continuous learning and improvement.",
   ],
   skills: [
-    "React.js",
-    "Next.js",
-    "Vue.js",
-    "Node.js",
-    ".Net Core",
-    "django",
-    "C#",
-    "javascript",
-    "typescript",
-    "python",
-    "MySQL",
-    "SQL Server",
-    "MongoDB",
-    "AWS",
-    "Azure",
-    "docker"
+    {
+      title: "Programming Languages",
+      tech: ["C#", "JavaScript", "Typescript", "Python", "C", "Java"],
+    },
+    {
+      title: "Frontend Technologies",
+      tech: ["React.js", "Next.js", "Vue.js", "Node.js"],
+    },
+    {
+      title: "Backend Technologies",
+      tech: [
+        ".Net Core",
+        "Node.js",
+        "Web2py",
+        "Django",
+        "Express",
+        "Docker",
+        "REST",
+        "GraphQL",
+      ],
+    },
+    {
+      title: "Database Technologies",
+      tech: ["SQL Server", "MongoDB", "MySQL", "Redis"],
+    },
+    { title: "Cloud Technologies", tech: ["AWS", "Azure", "Vercel"] },
+
+    // ".Net Core",
+    // "Django",
+    // "C#",
+    // "Java",
+    // "Javascript",
+    // "Typescript",
+    // "Python",
+    // "MySQL",
+    // "SQL Server",
+    // "MongoDB",
+    // "AWS",
+    // "Azure",
+    // "docker",
+    // "REST",
+    // "GraphQL"
   ],
 };
 
@@ -119,5 +145,5 @@ export const contactDetails = {
   email: "viveksurya@gmail.com",
   linkdin: "https://www.linkedin.com/in/vivek-surya-7a417718a/",
   github: "https://github.com/viveks77",
-  githubRepositories: "https://github.com/viveks77?tab=repositories"
+  githubRepositories: "https://github.com/viveks77?tab=repositories",
 };

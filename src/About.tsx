@@ -39,28 +39,21 @@ const About = () => {
             ))}
           </div>
           <div className="mt-20">
-            <Heading.Wrapper className="text-4xl tracking-wider">
+            <Heading.Wrapper  className="text-4xl tracking-wider">
               Skills
             </Heading.Wrapper>
-            <div className="flex flex-wrap items-center">
+            <div className="space-y-1">
               {aboutDetails.skills.map((skill, i) => {
                 return (
-                  <React.Fragment key={i}>
-                    <p className="">{skill}</p>
-                    {i < aboutDetails.skills.length - 1 && (
-                      <p className="mx-2 h-1 w-1 rounded-full bg-foreground">
-                        {" "}
-                      </p>
-                    )}
-                  </React.Fragment>
+                  <motion.div className="font-medium" key={i}>
+                    <span className="mr-2">{skill.title}: </span>
+                    <span className="">{skill.tech.join(", ")}</span>
+                  </motion.div>
                 );
               })}
             </div>
             <div className="mt-5">
-              <motion.a
-                href="#"
-                className="group relative mt-1 inline-block"
-              >
+              <motion.a href="https://drive.google.com/file/d/1gvRScoSqp2x8gHrsrABXAsQDkhhziBRB/view?usp=drive_link" className="group relative mt-1 inline-block">
                 <span className="relative z-10 block overflow-hidden rounded-2xl border-2 border-neutral-900 px-5 py-2 font-semibold leading-tight text-gray-800 transition-colors duration-300 ease-out group-hover:text-white">
                   <span className="ease rop absolute left-0 -ml-2 h-48 w-48 origin-top-right -translate-x-full translate-y-12 -rotate-90 bg-neutral-900 transition-all duration-300 group-hover:-rotate-180"></span>
                   <span className="relative group-hover:text-white">
