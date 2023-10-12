@@ -49,6 +49,7 @@ export const aboutDetails = {
     // "REST",
     // "GraphQL"
   ],
+  resume: "https://drive.google.com/file/d/1gvRScoSqp2x8gHrsrABXAsQDkhhziBRB/view?usp=drive_link"
 };
 
 export const workDetails = {
@@ -142,7 +143,7 @@ export const projectDetails = {
 
 export const contactDetails = {
   header: "Contact",
-  email: "viveksurya@gmail.com",
+  email: "vsurya9819@gmail.com",
   linkdin: "https://www.linkedin.com/in/vivek-surya-7a417718a/",
   github: "https://github.com/viveks77",
   githubRepositories: "https://github.com/viveks77?tab=repositories",
