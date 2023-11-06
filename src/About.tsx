@@ -4,7 +4,6 @@ import Heading from "@components/headings";
 import Layout from "@components/layout";
 import { aboutDetails } from "@helpers/data-dump";
 import {
-  childMotionVariants,
   headerMotionVariants,
   initialMotionVariants,
 } from "@helpers/motion-variables";
@@ -28,25 +27,24 @@ const About = () => {
         <Layout.ContentWrapper
           direction="left"
           className="mb-20  w-full overflow-y-scroll lg:w-[45%]"
-          variants={childMotionVariants}
         >
           <div className="space-y-4">
             {aboutDetails.description.map((desc, i) => (
-              <motion.p variants={childMotionVariants} key={i} className="">
+              <motion.p  key={i} className="">
                 {desc}
               </motion.p>
             ))}
           </div>
           <div className="mt-20">
-            <Heading.Wrapper  className="text-4xl tracking-wider">
+            <Heading.Wrapper  className="text-5xl tracking-widest">
               Skills
             </Heading.Wrapper>
             <div className="space-y-1">
               {aboutDetails.skills.map((skill, i) => {
                 return (
-                  <motion.div className="font-medium" key={i}>
+                  <motion.div className="font-" key={i}>
                     <span className="mr-2">{skill.title}: </span>
-                    <span className="">{skill.tech.join(", ")}</span>
+                    <span className="font-medium">{skill.tech.join(", ")}</span>
                   </motion.div>
                 );
               })}

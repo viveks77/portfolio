@@ -115,14 +115,14 @@ export const projectDetails = {
       href: "https://short-ly-ochre.vercel.app/",
       github: "https://github.com/viveks77/short.ly",
       subTitle: "A url shortner build with t3-stack",
-      techStack: ["Next.js", "typescript", "trpc", "mongoDB"],
+      techStack: ["React.js", "Next.js", "typescript", "trpc", "mongoDB"],
     },
     {
       title: "Movie.io",
       href: "https://movie-io.vercel.app/",
       github: "https://github.com/viveks77/netflix-clone",
       subTitle: "Netflix inspired movie library",
-      techStack: ["Next.js", "typescript", "framer-motion", "mongoDB"],
+      techStack: ["React.js", "Next.js", "typescript", "framer-motion", "mongoDB"],
     },
     {
       title: "Florvana",

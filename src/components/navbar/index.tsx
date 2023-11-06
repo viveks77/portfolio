@@ -36,6 +36,8 @@ const Navbar = () => {
             <img
               className="h-8 w-8 transition-all duration-700 group-hover:scale-[1.1]"
               src={LinkdnIcon}
+              loading="eager"
+              title="Linkedin"
               alt="linkd"
             />
           </a>
@@ -43,6 +45,8 @@ const Navbar = () => {
             <img
               className="h-6 w-6 transition-all duration-700 group-hover:scale-[1.1]"
               src={GithubIcon}
+              loading="eager"
+              title="Github"
               alt="github"
             />
           </a>
