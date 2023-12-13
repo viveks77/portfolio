@@ -38,7 +38,7 @@ const Project = () => {
           {projectDetails.projectsLink.map((proj, i) => {
             return (
               <div key={i} className="mb-12 mr-7">
-                <Heading.Wrapper className="mb-4 flex text-4xl tracking-wider md:text-[5vw]  lg:ml-14 lg:text-[4.5vw]">
+                <Heading.Wrapper className="mb-4 flex text-4xl tracking-wider md:text-[5vw]  lg:ml-14 lg:text-[4.5vw] hover:translate-x-2">
                   <a target="_blank" href={proj.href}>{proj.title}</a>
                 </Heading.Wrapper>
                 <Heading.SubHeading className="mb-4 lg:ml-14">

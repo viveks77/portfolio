@@ -49,7 +49,7 @@ export const aboutDetails = {
     // "REST",
     // "GraphQL"
   ],
-  resume: "https://drive.google.com/file/d/1gvRScoSqp2x8gHrsrABXAsQDkhhziBRB/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1FU1dkFDYbI_W1489oYI-Q8sjnuRrQVp0/view?usp=sharing"
 };
 
 export const workDetails = {
@@ -65,13 +65,11 @@ export const workDetails = {
       location: "Pune, India",
       date: "Aug 21 - Present",
       resp: [
-        "Implemented end-to-end authentication solutions, enhancing security and user trust in web applications.",
-        "Took a holistic approach to projects, contributing to both front-end and back-end development to ensure seamless user experiences.",
-        "Developed and maintained front-end interfaces using React.js and Vue.js, ensuring responsive and user-friendly designs.",
-        "Collaborated with cross-functional teams to design, develop, and deploy web applications on Microsoft Azure, optimizing scalability and performance.",
-        "Utilized .Net Core and Node.js to build robust back-end services, facilitating seamless communication between the front-end and database.",
-        "Worked closely with project managers and stakeholders to gather requirements and deliver solutions that met project objectives.",
-      ],
+        "Designed and implemented a robust end to end authentication system for various web applications, enhancing security by 50%.",
+        "Designed, Developed and maintained user-friendly, responsive front-end interfaces using React.js and Vue.js. Prioritized modern web standards, resulting in a 35% increase in user engagement and positive feedback.",
+        "Developed and deployed robust back‑end services using .Net Core, Node.js and web2py, improving the communication between the front‑end and database by 40% and enhancing the functionality and performance of various web applications",
+        " Collaborated seamlessly with cross‑functional teams to design, develop, and deploy web applications on the Microsoft Azure platform, optimizing scalability, and improving performance",
+        "Played a pivotal role in gathering project requirements, working closely with project managers and stakeholders to deliver solutions that consistently met or exceeded project objectives, resulting in 90% increase in client satisfaction ratings."],
       technologies: [
         "C#",
         "Javascript",
@@ -90,10 +88,10 @@ export const workDetails = {
       location: "Pune, India",
       date: "Mar 21 - Aug 21",
       resp: [
-        "Played a pivotal role as a Software Developer, primarily focusing on internal applications.",
-        "Demonstrated proficiency in designing and implementing end-to-end solutions using technologies like Vue.js, Python, and Web2py.",
-        "Collaborated effectively with cross-functional teams to enhance and streamline internal processes, contributing to increased efficiency and productivity.",
-        "Contributed to the overall success of firm by delivering high-quality software solutions.",
+        "Played a pivotal role as a Software Developer, with a primary focus on internal applications, contributing to a 20% increase in internal process efficiency.",
+        "Demonstrated proficiency in designing and implementing end‑to‑end solutions utilizing technologies such as Vue.js, Python, and Web2py, resulting in a 30% improvement in application performance.",
+        "Collaborated effectively with cross‑functional teams to improve and streamline internal processes, resulting in increased efficiency and productivity",
+        "Contributed significantly to the overall success of the firm by consistently delivering high quality software solutions.",
       ],
       technologies: [
         "Python",
@@ -112,31 +110,31 @@ export const projectDetails = {
   projectsLink: [
     {
       title: "Short.ly",
-      href: "https://short-ly-ochre.vercel.app/",
+      href: "https://short-ly-three.vercel.app",
       github: "https://github.com/viveks77/short.ly",
       subTitle: "A url shortner build with t3-stack",
-      techStack: ["React.js", "Next.js", "typescript", "trpc", "mongoDB"],
+      techStack: ["ReactJs", "NextJs", "Tailwind", "Typescript", "tRPC", "mongoDB", "redis"],
     },
     {
       title: "Movie.io",
       href: "https://movie-io.vercel.app/",
       github: "https://github.com/viveks77/netflix-clone",
       subTitle: "Netflix inspired movie library",
-      techStack: ["React.js", "Next.js", "typescript", "framer-motion", "mongoDB"],
+      techStack: ["ReactJs", "NextJs", "Tailwind", "Typescript", "Framer Motion", "mongoDB"],
     },
     {
       title: "Florvana",
       href: "https://florvana.vercel.app/",
       github: "https://github.com/viveks77/florvana",
       subTitle: "Landing page for a Flower bussiness",
-      techStack: ["React.js", "typescript", "framer-motion"],
+      techStack: ["ReactJs", "Typescript", "Framer Motion"],
     },
     {
       title: "Twitter-clone",
       href: "https://github.com/viveks77/twitter-clone",
       github: "https://github.com/viveks77/twitter-clone",
       subTitle: "Twitter backend clone build with .Net core",
-      techStack: [".Net core", "C#", "SQL Server"],
+      techStack: [".Net core", "C#", "SQL Server", "Entity Framework"],
     },
   ],
 };
