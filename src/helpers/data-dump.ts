@@ -8,11 +8,11 @@ export const aboutDetails = {
   skills: [
     {
       title: "Programming Languages",
-      tech: ["C#", "JavaScript", "Typescript", "Python", "C", "Java"],
+      tech: ["C#", "JavaScript", "Typescript", "Python", "Java"],
     },
     {
       title: "Frontend Technologies",
-      tech: ["React.js", "Next.js", "Vue.js", "Node.js"],
+      tech: ["React.js", "Next.js", "Vue.js"],
     },
     {
       title: "Backend Technologies",
@@ -20,7 +20,6 @@ export const aboutDetails = {
         ".Net Core",
         "Node.js",
         "Web2py",
-        "Django",
         "Express",
         "Docker",
         "REST",
@@ -29,9 +28,9 @@ export const aboutDetails = {
     },
     {
       title: "Database Technologies",
-      tech: ["SQL Server", "MongoDB", "MySQL", "Redis"],
+      tech: ["SQL Server", "MongoDB", "Redis"],
     },
-    { title: "Cloud Technologies", tech: ["AWS", "Azure", "Vercel"] },
+    { title: "Cloud Technologies", tech: ["Azure", "Vercel"] },
 
     // ".Net Core",
     // "Django",
@@ -55,7 +54,7 @@ export const aboutDetails = {
 export const workDetails = {
   header: "Work Summary",
   description: [
-    "Results-oriented Fullstack Developer with 2+ years of hands-on experience in .NET Core, React.js, Vue.js, and Azure.",
+    "Results-oriented Fullstack Developer with 3+ years of hands-on experience in .NET Core, React.js, Vue.js, and Azure.",
     " Proven track record of implementing end-to-end authentication, front-end and back-end development, and efficient deployment strategies.",
   ],
   experience: [
@@ -108,6 +107,13 @@ export const workDetails = {
 export const projectDetails = {
   header: "Selected Projects",
   projectsLink: [
+    {
+      title:"Sphere.ai",
+      href: "https://sphereai.vercel.app",
+      github: "https://github.com/viveks77/sphere.",
+      subTitle: "AI-powered PDF interaction web app built with next.js, tRPC and langchain",
+      techStack: ["Next.js", "Tailwind", "Typescript", "Supabase", "tRPC", "langchain", "pSQL"]
+    },
     {
       title: "Short.ly",
       href: "https://short-ly-three.vercel.app",

@@ -26,7 +26,7 @@ const About = () => {
         </WrapperMask>
         <Layout.ContentWrapper
           direction="left"
-          className="mb-20  w-full overflow-y-scroll lg:w-[45%]"
+          className="mb-20  w-full overflow-y-hidden lg:w-[45%]"
         >
           <div className="space-y-4">
             {aboutDetails.description.map((desc, i) => (
