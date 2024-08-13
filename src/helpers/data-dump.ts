@@ -48,7 +48,7 @@ export const aboutDetails = {
     // "REST",
     // "GraphQL"
   ],
-  resume: "https://drive.google.com/file/d/1FU1dkFDYbI_W1489oYI-Q8sjnuRrQVp0/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1JoJ_qxZZlWrvxbkQJMpPVFFQUcMmlLLp/view"
 };
 
 export const workDetails = {
