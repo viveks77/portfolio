@@ -12,7 +12,7 @@ export const aboutDetails = {
     },
     {
       title: "Frontend Technologies",
-      tech: ["React.js", "Next.js", "Vue.js"],
+      tech: ["React.js", "Next.js", "Vue.js","Angular"],
     },
     {
       title: "Backend Technologies",
@@ -48,7 +48,7 @@ export const aboutDetails = {
     // "REST",
     // "GraphQL"
   ],
-  resume: "https://drive.google.com/file/d/1JoJ_qxZZlWrvxbkQJMpPVFFQUcMmlLLp/view"
+  resume: "https://drive.google.com/file/d/1ApG6dZz3gneAHAIb19RjyesK2o_Fau0r/view?usp=sharing"
 };
 
 export const workDetails = {
@@ -64,17 +64,25 @@ export const workDetails = {
       location: "Pune, India",
       date: "Aug 21 - Present",
       resp: [
-        "Designed and implemented a robust end to end authentication system for various web applications, enhancing security by 50%.",
-        "Designed, Developed and maintained user-friendly, responsive front-end interfaces using React.js and Vue.js. Prioritized modern web standards, resulting in a 35% increase in user engagement and positive feedback.",
-        "Developed and deployed robust back‑end services using .Net Core, Node.js and web2py, improving the communication between the front‑end and database by 40% and enhancing the functionality and performance of various web applications",
-        " Collaborated seamlessly with cross‑functional teams to design, develop, and deploy web applications on the Microsoft Azure platform, optimizing scalability, and improving performance",
-        "Played a pivotal role in gathering project requirements, working closely with project managers and stakeholders to deliver solutions that consistently met or exceeded project objectives, resulting in 90% increase in client satisfaction ratings."],
+        "Developed and maintained enterprise-grade healthcare applications and internal tools as part of a cross-functional team using .NET Core, Azure Functions, Entity Framework Core, SQL Server, Vue.js, and Angular.",
+        "Designed and implemented secure, scalable OAuth2-based authentication using Microsoft Identity Platform with JWT tokens, significantly improving access control and reducing legacy auth issues.",
+        "Built and extended RESTful APIs using .NET Core Web API, Azure Functions, and Entity Framework Core, supporting business logic and data operations across healthcare applications.",
+        "Built dynamic, component-driven front-end solutions with Vue.js, React.js and Angular, using Tailwind CSS, Material UI, and Bootstrap to deliver responsive, accessible UIs aligned with designer-provided wireframes.",
+        "Developed real-time features using WebSockets for two-way communication between front-end clients and backend services, enhancing responsiveness in critical healthcare workflows.",
+        "Created and managed CI/CD pipelines using GitHub Actions and Azure Pipelines, improving deployment speed and reducing post-release issues.",
+        "Containerized internal applications using Docker, streamlining development and ensuring consistent Azure deployments.",
+        "Built a custom, full-featured rich text editor with dynamic field integrations and custom scripts, enabling tailored document handling within healthcare workflows.",
+        "Implemented integrated unit and integration tests during development to improve code stability and reduce production bugs.",
+        "Authored detailed System Design Documents (SDDs) and technical documentation to support project maintainability and effective team knowledge transfer."
+      ],
       technologies: [
         "C#",
         "Javascript",
         "Typescript",
         "Node.js",
-        ".Net",
+        ".Net Core",
+        "Azure Functions",
+        "Angular",
         "React.js",
         "Vue.js",
         "Azure",
