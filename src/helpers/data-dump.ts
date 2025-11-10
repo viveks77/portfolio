@@ -19,7 +19,6 @@ export const aboutDetails = {
       tech: [
         ".Net Core",
         "Node.js",
-        "Web2py",
         "Express",
         "Docker",
         "REST",
@@ -48,7 +47,7 @@ export const aboutDetails = {
     // "REST",
     // "GraphQL"
   ],
-  resume: "https://drive.google.com/file/d/1ApG6dZz3gneAHAIb19RjyesK2o_Fau0r/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1DRtLLmiQazagfEwKFSy3gfCNTiO-c2ON/view?usp=sharing"
 };
 
 export const workDetails = {
@@ -116,32 +115,32 @@ export const projectDetails = {
   header: "Selected Projects",
   projectsLink: [
     {
+      title: "Florvana",
+      href: "https://florvana.vercel.app/",
+      github: "https://github.com/viveks77/florvana",
+      subTitle: "Landing page for a Flower bussiness",
+      techStack: ["ReactJs", "Typescript", "Framer Motion"],
+    },
+    {
       title:"Sphere.ai",
-      href: "https://sphereai.vercel.app",
+      href: "https://github.com/viveks77/sphere",
       github: "https://github.com/viveks77/sphere.",
       subTitle: "AI-powered PDF interaction web app built with next.js, tRPC and langchain",
       techStack: ["Next.js", "Tailwind", "Typescript", "Supabase", "tRPC", "langchain", "pSQL"]
     },
     {
       title: "Short.ly",
-      href: "https://short-ly-three.vercel.app",
+      href: "https://github.com/viveks77/short.l",
       github: "https://github.com/viveks77/short.ly",
       subTitle: "A url shortner build with t3-stack",
       techStack: ["ReactJs", "NextJs", "Tailwind", "Typescript", "tRPC", "mongoDB", "redis"],
     },
     {
       title: "Movie.io",
-      href: "https://movie-io.vercel.app/",
+      href: "https://github.com/viveks77/netflix-clone",
       github: "https://github.com/viveks77/netflix-clone",
       subTitle: "Netflix inspired movie library",
       techStack: ["ReactJs", "NextJs", "Tailwind", "Typescript", "Framer Motion", "mongoDB"],
-    },
-    {
-      title: "Florvana",
-      href: "https://florvana.vercel.app/",
-      github: "https://github.com/viveks77/florvana",
-      subTitle: "Landing page for a Flower bussiness",
-      techStack: ["ReactJs", "Typescript", "Framer Motion"],
     },
     {
       title: "Twitter-clone",
