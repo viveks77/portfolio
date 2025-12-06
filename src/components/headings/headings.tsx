@@ -1,17 +1,20 @@
-import { Variants, motion } from "framer-motion";
+import { TargetAndTransition, Transition, VariantLabels, Variants, motion} from "motion/react";
 import React from "react";
 
 type Props = {
   children: React.ReactNode;
   className?: string;
   variants?: Variants;
+  whileHover?: TargetAndTransition | VariantLabels | undefined;
+  transition?: Transition;
 };
 
-const Wrapper = ({ children, className = "", variants = {} }: Props) => {
+const Wrapper = ({ children, className = "", variants = {}, whileHover = undefined, transition = undefined }: Props) => {
   const classes = `group mb-10  font-Rafins uppercase transition-all ${className}`;
 
   return (
     <motion.div
+      whileHover={whileHover}
       variants={variants}
       animate="animate"
       initial="initial"
@@ -19,6 +22,7 @@ const Wrapper = ({ children, className = "", variants = {} }: Props) => {
       layout
       style={{ lineHeight: 0.9 }}
       className={classes}
+      transition={transition}
     >
       {children}
     </motion.div>

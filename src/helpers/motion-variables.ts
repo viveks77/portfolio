@@ -1,6 +1,8 @@
-const initialMotionVariants = {
+import { Variants } from "motion";
+
+const initialMotionVariants: Variants = {
   initial: {
-    filter: "blur(5px)",
+    filter: "blur(15px)",
     opacity: 0,
   },
   animate: {
@@ -13,21 +15,21 @@ const initialMotionVariants = {
   },
 };
 
-const childMotionVariants = {
+const childMotionVariants: Variants = {
   initial: { y: 50, opacity: 0 },
   animate: {
     y: 0,
     opacity: 1,
     transition: {
-      staggerChildren: 0.3,
-      type: [0.78, 0.23, 0.45, 0.1],
+      staggerChildren: 0.2,
+      ease: 'easeInOut',
       duration: 0.7,
       delayChildren: 0.2,
     },
   },
 };
 
-const headerMotionVariants = {
+const headerMotionVariants: Variants = {
   initial: {
     y: 50,
     opacity: 0,

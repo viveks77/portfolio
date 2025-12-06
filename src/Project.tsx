@@ -25,10 +25,7 @@ const Project = () => {
           </WrapperMask>
           <WrapperMask>
             <Layout.Content variants={childMotionVariants}>
-              My portfolio represents a culmination of my finest work across a
-              spectrum of cutting-edge technologies. In a field characterized by
-              rapid change, I thrive on the challenge of learning and mastering
-              new tools and methodologies.
+              My portfolio showcases some of my best work using a variety of modern technologies. I enjoy learning new tools and adapting quickly in a fast-changing tech landscape.
             </Layout.Content>
           </WrapperMask>
         </Layout.ContentWrapper>
@@ -38,14 +35,14 @@ const Project = () => {
           {projectDetails.projectsLink.map((proj, i) => {
             return (
               <div key={i} className="mb-12 mr-7">
-                <Heading.Wrapper className="mb-4 flex text-4xl tracking-wider md:text-[5vw]  lg:ml-14 lg:text-[4.5vw] hover:translate-x-2">
-                  <a target="_blank" href={proj.href}>{proj.title}</a>
+                <Heading.Wrapper className="mb-4 flex text-4xl tracking-wider md:text-[5vw]  lg:ml-14 lg:text-[4.5vw] hover:-skew-x-6 hover:translate-x-2">
+                  <a target="_blank" data-element-type='link' href={proj.href}>{proj.title}</a>
                 </Heading.Wrapper>
                 <Heading.SubHeading className="mb-4 lg:ml-14">
                   {proj.subTitle}
                 </Heading.SubHeading>
                 <div className="w-fit lg:ml-14">
-                  <a href={proj.github} target="_blank" className="group">
+                  <a data-element-type='button' href={proj.github} target="_blank" className="group">
                     <div>Source </div>
                     <div className="h-[2px] w-0 bg-foreground transition-all group-hover:w-full"></div>
                   </a>
@@ -55,6 +52,7 @@ const Project = () => {
                     return (
                       <div
                         key={i}
+                        data-element-type='pill'
                         className="my-2 mr-3 rounded-full bg-foreground px-4 py-2 text-white"
                       >
                         {tech}
@@ -66,7 +64,7 @@ const Project = () => {
             );
           })}
           <div className="group mb-14 w-fit lg:ml-12 lg:px-3">
-            <a href={contactDetails.githubRepositories} target="_blank">
+            <a data-element-type='button' href={contactDetails.githubRepositories} target="_blank">
               <div>View all {">"} </div>
               <div className="h-[2px] w-0 bg-foreground transition-all group-hover:w-full"></div>
             </a>

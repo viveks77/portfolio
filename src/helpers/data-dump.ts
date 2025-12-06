@@ -7,12 +7,12 @@ export const aboutDetails = {
   ],
   skills: [
     {
-      title: "Programming Languages",
-      tech: ["C#", "JavaScript", "Typescript", "Python", "Java"],
+      title: "Core Languages",
+      tech: ["C#", "JavaScript", "Typescript", "SQL"],
     },
     {
       title: "Frontend Technologies",
-      tech: ["React.js", "Next.js", "Vue.js","Angular"],
+      tech: ["React.js", "Next.js", "Vue.js","Angular", "Redux", "Tanstack query"],
     },
     {
       title: "Backend Technologies",
@@ -22,14 +22,14 @@ export const aboutDetails = {
         "Express",
         "Docker",
         "REST",
-        "GraphQL",
+        "GraphQL"
       ],
     },
     {
       title: "Database Technologies",
       tech: ["SQL Server", "MongoDB", "Redis"],
     },
-    { title: "Cloud Technologies", tech: ["Azure", "Vercel"] },
+    { title: "Cloud Technologies", tech: ["Azure (Functions, App Service, Service Bus)", "Docker", "Github", "Vercel"] },
 
     // ".Net Core",
     // "Django",
@@ -47,14 +47,14 @@ export const aboutDetails = {
     // "REST",
     // "GraphQL"
   ],
-  resume: "https://drive.google.com/file/d/1DRtLLmiQazagfEwKFSy3gfCNTiO-c2ON/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1jNks0f-HiMlJZP0T6PIgpwrD3AkCunWB/view?usp=drive_link"
 };
 
 export const workDetails = {
   header: "Work Summary",
   description: [
-    "Results-oriented Fullstack Developer with 3+ years of hands-on experience in .NET Core, React.js, Vue.js, and Azure.",
-    " Proven track record of implementing end-to-end authentication, front-end and back-end development, and efficient deployment strategies.",
+    `Full-Stack developer with 4+ years of experience designing and delivering high-performance, large-scale web platforms across
+    Various domains.`,
   ],
   experience: [
     {
@@ -63,16 +63,19 @@ export const workDetails = {
       location: "Pune, India",
       date: "Aug 21 - Present",
       resp: [
-        "Developed and maintained enterprise-grade healthcare applications and internal tools as part of a cross-functional team using .NET Core, Azure Functions, Entity Framework Core, SQL Server, Vue.js, and Angular.",
-        "Designed and implemented secure, scalable OAuth2-based authentication using Microsoft Identity Platform with JWT tokens, significantly improving access control and reducing legacy auth issues.",
-        "Built and extended RESTful APIs using .NET Core Web API, Azure Functions, and Entity Framework Core, supporting business logic and data operations across healthcare applications.",
-        "Built dynamic, component-driven front-end solutions with Vue.js, React.js and Angular, using Tailwind CSS, Material UI, and Bootstrap to deliver responsive, accessible UIs aligned with designer-provided wireframes.",
-        "Developed real-time features using WebSockets for two-way communication between front-end clients and backend services, enhancing responsiveness in critical healthcare workflows.",
-        "Created and managed CI/CD pipelines using GitHub Actions and Azure Pipelines, improving deployment speed and reducing post-release issues.",
-        "Containerized internal applications using Docker, streamlining development and ensuring consistent Azure deployments.",
-        "Built a custom, full-featured rich text editor with dynamic field integrations and custom scripts, enabling tailored document handling within healthcare workflows.",
-        "Implemented integrated unit and integration tests during development to improve code stability and reduce production bugs.",
-        "Authored detailed System Design Documents (SDDs) and technical documentation to support project maintainability and effective team knowledge transfer."
+        "Developed enterprise web platform using .NET Core, Node.js and React with Microsoft Identity authentication system",
+        "Designed and implemented RESTful API endpoints handling high-volume transaction processing with optimized SQL Server queries",
+        "Created responsive React components leveraging Redux Toolkit, React Query, and advanced React hooks with code splitting, reducing initial page load times by 40%",
+        "Strong experience designing secure authentication and authorization flows leveraging JWT, OAuth 2.0, and provider integrations.",
+        "Implemented real-time WebSocket connections for live updates and collaborative editing capabilities",
+        "Built custom document editor with dynamic validation, automated workflows, and plugin architecture for design requirements",
+        "Implemented role-based access control (RBAC) system supporting multiple user hierarchies and granular permissions",
+        "Configured CI/CD pipeline using Azure DevOps with automated testing suite, reducing deployment time to 8 minutes",
+        "Integrated Azure Service Bus for asynchronous message processing and real-time notification delivery",
+        "Developed template-based email notification system using Azure Service Bus messaging architecture",
+        "Optimized database performance through query optimization and Redis caching implementation",
+        "Created stored procedures and database triggers for automated data validation and business rule enforcement",
+        "Implemented comprehensive logging and error handling using Application Insights for performance monitoring"
       ],
       technologies: [
         "C#",
@@ -80,7 +83,6 @@ export const workDetails = {
         "Typescript",
         "Node.js",
         ".Net Core",
-        "Azure Functions",
         "Angular",
         "React.js",
         "Vue.js",
@@ -114,6 +116,13 @@ export const workDetails = {
 export const projectDetails = {
   header: "Selected Projects",
   projectsLink: [
+    {
+      title: "Sphere Extension",
+      href: "https://github.com/viveks77/sphere-browser-ext",
+      github: "https://github.com/viveks77/sphere-browser-ext",
+      subTitle: "AI-Powered Cross platform Browser Extension for Enhanced Web Interaction",
+      techStack: ["Typescript", "ReactJs", "Tailwind", "langchain", "genAI", "mcp Servers"],
+    },
     {
       title: "Florvana",
       href: "https://florvana.vercel.app/",

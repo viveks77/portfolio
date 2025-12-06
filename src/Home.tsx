@@ -25,14 +25,12 @@ const Home = () => {
           <WrapperMask>
             <Layout.Content variants={childMotionVariants}>
               <span>
-                An accomplished Full Stack Software Developer, based in Pune,
-                with a wealth of experience in the digital realm.
+               Full Stack Developer  
               </span>
             </Layout.Content>
             <Layout.Content variants={childMotionVariants}>
               <span>
-                When I'm not coding, you'll find me exploring the great outdoors
-                and embracing new culinary adventures
+                Currently working full-time as a Full Stack Developer at Touchcore Systems.
               </span>
             </Layout.Content>
           </WrapperMask>

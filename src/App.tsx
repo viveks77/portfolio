@@ -6,12 +6,14 @@ import { AnimatePresence } from "framer-motion";
 import Work from "./Work.tsx";
 import Project from "./Project.tsx";
 import Contact from "./Contact.tsx";
+import Cursor from "@components/Cursor.tsx";
 
 const App = () => {
   const [location] = useLocation();
 
   return (
     <>
+      <Cursor />
       <Navbar />
       <AnimatePresence mode="wait">
         <Switch location={location} key={location}>

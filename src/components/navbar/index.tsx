@@ -13,12 +13,13 @@ const Navbar = () => {
           {links.map(
             ({ title, href }: { title: string; href: string }, i: number) => (
               <Link
-                className="group relative hidden rotate-180 py-1 tracking-wider lg:block"
+                className="group relative hidden rotate-180 py-1 tracking-wider lg:block cursor-none"
                 key={i}
                 href={href}
+                data-element-type='button'
               >
                 {title}
-                <div className="absolute left-1/2 top-0 h-0 w-[1px] origin-center bg-black transition-all group-hover:h-full"></div>
+                {/* <div className="absolute left-1/2 top-0 h-0 w-[1px] origin-center bg-black transition-all group-hover:h-full"></div> */}
               </Link>
             ),
           )}
@@ -32,18 +33,18 @@ const Navbar = () => {
           <div className="h-24 w-0.5 bg-foreground opacity-60"></div>
         </div>
         <div className="hidden flex-col items-center justify-end gap-6 lg:flex">
-          <a href={contactDetails.linkdin} target="_blank" className="group">
+          <a data-element-type='button' href={contactDetails.linkdin} target="_blank" className="group">
             <img
-              className="h-8 w-8 transition-all duration-700 group-hover:scale-[1.1]"
+              className="h-8 w-8 transition-all duration-700 group-hover:scale-[1.1] cursor-none"
               src={LinkdnIcon}
               loading="eager"
               title="Linkedin"
               alt="linkd"
             />
           </a>
-          <a href={contactDetails.github} target="_blank" className="group">
+          <a data-element-type='button' href={contactDetails.github} target="_blank" className="group">
             <img
-              className="h-6 w-6 transition-all duration-700 group-hover:scale-[1.1]"
+              className="h-6 w-6 transition-all duration-700 group-hover:scale-[1.1] cursor-none"
               src={GithubIcon}
               loading="eager"
               title="Github"

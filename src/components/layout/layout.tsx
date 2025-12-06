@@ -1,4 +1,4 @@
-import { MotionStyle, Variants, motion } from "framer-motion";
+import { MotionStyle, Variants, motion } from "motion/react";
 import React from "react";
 
 type Props = {
