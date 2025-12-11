@@ -108,6 +108,7 @@ const Cursor = () => {
 
     return (
         <motion.div
+            className="custom-cursor"
             style={{
                 left: cursorX,
                 top: cursorY,

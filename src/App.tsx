@@ -7,13 +7,28 @@ import Work from "./Work.tsx";
 import Project from "./Project.tsx";
 import Contact from "./Contact.tsx";
 import Cursor from "@components/Cursor.tsx";
+import { useState, useEffect, Activity } from "react";
 
 const App = () => {
   const [location] = useLocation();
 
+  // Detect if device is mobile (simple check)
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+      const checkMobile = () => {
+          const isTouch = window.matchMedia('(pointer: coarse)').matches || 'ontouchstart' in window;
+          setIsMobile(isTouch || window.innerWidth < 768);
+      };
+      checkMobile();
+      window.addEventListener('resize', checkMobile);
+      return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   return (
     <>
-      <Cursor />
+      <Activity mode={isMobile ? 'hidden': 'visible'}>
+        <Cursor />
+      </Activity>
       <Navbar />
       <AnimatePresence mode="wait">
         <Switch location={location} key={location}>

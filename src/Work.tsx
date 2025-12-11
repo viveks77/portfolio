@@ -64,6 +64,7 @@ const Work = () => {
                     return (
                       <div
                         key={i}
+                        data-element-type='pill'
                         className="my-2 mr-3 rounded-full bg-foreground px-4 py-2 text-white"
                       >
                         {tech}
